@@ -31,6 +31,8 @@ df = load_and_prepare_data(file_path, sheet_name)
 # Initialize the Dash app with Bootstrap stylesheet
 app = Dash(__name__, external_stylesheets=[dbc.themes.BOOTSTRAP])
 
+server =app.server
+
 
 # App layout
 app.layout = dbc.Container([
