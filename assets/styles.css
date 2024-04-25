@@ -1,0 +1,70 @@
+/* custom_style.css content */
+.bg_colour {
+    background-color: #070749;
+}
+
+/* Using Google Fonts Poppins for the entire body */
+body {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400; /* Default weight */
+}
+
+
+/* styles.css */
+/* Styling for Table all cell values */
+.dash-table-container .dash-cell{
+    font-family: 'Poppins', sans-serif;  /* Example font */
+    font-size: 12px;  /* Example font size */
+    color: #333; /* Example text color */
+}
+
+/* Styling for the Table header cells */
+.dash-table-container .dash-header{
+    font-family: 'Poppins', sans-serif;  /* Ensure the header uses the same font */
+    font-size: 14px;  /* Adjust size as needed, often headers are bolder or larger */
+    color: #333;  /* Example header text color */
+    font-weight: 500;  /* Makes headers bold */
+    background-color: #f0f0f0; /* Light grey background for headers */
+}
+
+
+H1 {
+    font-weight: 600; /* Bolder for headers */
+}
+
+H5 {
+    font-weight: 550; /* Bolder for headers */
+}
+
+
+.btn-primary {
+    --bs-btn-color: #ffff;
+    --bs-btn-bg: #070749;
+    --bs-btn-border-color: #070749;
+    --bs-btn-hover-bg: black;
+    --bs-btn-hover-border-color: #070749;
+    --bs-btn-active-bg: #070749;
+    --bs-btn-active-border-color: #070749;
+}
+
+.white_text {
+    color: white;
+}
+
+.gray_text {
+    color: #050505;
+}
+
+
+.Select--multi .Select-value {
+    background-color: #050505;
+    border-radius: 1px;
+    border: 1px solid #c2e0ff;
+    color: white;
+    display: inline-block;
+    font-size: .9em;
+    line-height: 1.4;
+    margin-left: 5px;
+    margin-top: 5px;
+    vertical-align: top;
+}
