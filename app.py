@@ -62,7 +62,7 @@ app.layout = dbc.Container([
                 dbc.CardBody([
                     dbc.Row(
                         dbc.Col(
-                    dbc.Button("Run Simulation", id="run_freq", color="primary", className="btn-block"), width=5 ), justify='center'),
+                    dbc.Button("Run Simulation", id="run_freq", color="primary", className="btn-block"), width=7 ), justify='center'),
                     html.Br(),
                     html.Br(),
                     html.Label("Number of Observations:", className="form-label"),
