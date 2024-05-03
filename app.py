@@ -35,6 +35,7 @@ df = load_and_prepare_data(file_path, sheet_name)
 # Initialize the Dash app
 app = dash.Dash(__name__, external_stylesheets=[dbc.themes.BOOTSTRAP], suppress_callback_exceptions=True, use_pages=True)
 
+server = app.server
 
 app.layout = dbc.Container([
         dbc.Row([
