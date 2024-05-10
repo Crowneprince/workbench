@@ -3,6 +3,7 @@ dash-bootstrap-components
 pandas
 numpy
 plotly
+matplotlib
 gunicorn
 flask
 openpyxl
