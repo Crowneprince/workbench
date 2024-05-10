@@ -37,7 +37,7 @@ from utilities.data_prep import processed_data
 app = dash.Dash(__name__, external_stylesheets=[
                 dbc.themes.BOOTSTRAP], suppress_callback_exceptions=True, use_pages=True)
 
-# server = app.server
+server = app.server
 
 
 df = processed_data()
