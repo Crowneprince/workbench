@@ -4,6 +4,7 @@ pandas
 numpy
 plotly
 matplotlib
+scipy
 gunicorn
 flask
 openpyxl
